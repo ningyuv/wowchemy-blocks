@@ -3,6 +3,9 @@ module:
     - source: blocks
       target: layouts/partials/blocks/
       includeFiles: '**.html'
+    - source: views
+      target: layouts/partials/views/
+      includeFiles: '**.html'
     - source: blocks
       target: assets/scss/blocks/
       includeFiles: '**.scss'
